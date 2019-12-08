@@ -110,5 +110,5 @@ app.get('/logout', function(req, res){
 
 app.listen(port, function(){
     console.log("server runnig!");
-    console.log(port);
+    console.log(process.env.PORT);
 });
