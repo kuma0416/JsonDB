@@ -108,4 +108,7 @@ app.get('/logout', function(req, res){
     res.redirect('/');
 });
 
-app.listen(port);
+app.listen(port, function(){
+    console.log("server runnig!");
+    console.log(process.enc.PORT);
+});
