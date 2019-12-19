@@ -1,1 +1,2 @@
 monster system!
+使用JSON作為資料庫去改善mongoDB無法讓太多人同時連上的問題
